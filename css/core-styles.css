@@ -164,7 +164,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    transition: width 0.3s;
+    transition: width 0.5s;
   }
   .cs-button-solid:hover:before {
     width: 100%;
@@ -515,7 +515,7 @@
   }
   #cs-navigation .cs-container {
     width: 100%;
-    max-width: 80rem;
+    max-width: 100%;
     margin: auto;
     display: flex;
     justify-content: flex-end;
@@ -806,37 +806,6 @@
     font-size: 1rem;
     margin-bottom: 1.25rem;
   }
-  #cs-footer-269 .cs-social-group {
-    /* pushes away from the other flex items */
-    margin-top: auto;
-    margin-left: auto;
-  }
-  #cs-footer-269 .cs-social {
-    display: inline-flex;
-    justify-content: flex-start;
-    gap: 0.75rem;
-  }
-  #cs-footer-269 .cs-social-link {
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #4e4b66;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    transition: transform 0.3s, background-color 0.3s;
-  }
-  #cs-footer-269 .cs-social-link:hover {
-    background-color: var(--primary);
-    transform: translateY(-0.1875rem);
-  }
-  #cs-footer-269 .cs-social-img {
-    height: 0.8125rem;
-    width: auto;
-    display: block;
-  }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
@@ -850,7 +819,7 @@
     margin-right: auto;
   }
   #cs-footer-269 .cs-text {
-    width: 80%;
+    width: 100%;
     max-width: 19.0625rem;
     margin: 0;
   }
