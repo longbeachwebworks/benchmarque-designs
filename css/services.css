@@ -8,7 +8,7 @@
     padding: var(--sectionPadding);
     /* clips graphics to stop overflow issues */
     overflow: hidden;
-    background-color: #f7f7f7;
+    background-color: #fff;
   }
   #sbsr-1162 .cs-container {
     width: 100%;
@@ -324,7 +324,7 @@
     padding: var(--sectionPadding);
     /* clips graphics to stop overflow issues */
     overflow: hidden;
-    background-color: #f7f7f7;
+    background-color: #fff;
   }
   #sbsr-1162-v2 .cs-container {
     width: 100%;
