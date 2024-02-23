@@ -89,16 +89,6 @@
     color: #fff;
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #hero-82:before,
-  body.dark-mode #hero-82:after {
-    background: var(--dark);
-  }
-  body.dark-mode #hero-82 .cs-background:before {
-    opacity: 0.85;
-  }
-}
 
 /*-- -------------------------- -->
 <---          Services          -->
@@ -148,7 +138,7 @@
     text-align: left;
     list-style: none;
     width: 100%;
-    background-color: #fff;
+    background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -250,27 +240,6 @@
     grid-column: span 3;
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #services-1082 {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  body.dark-mode #services-1082 .cs-title,
-  body.dark-mode #services-1082 .cs-text,
-  body.dark-mode #services-1082 .cs-item-text {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #services-1082 .cs-text,
-  body.dark-mode #services-1082 .cs-item-text {
-    opacity: 0.8;
-  }
-  body.dark-mode #services-1082 .cs-h3 {
-    background-color: rgba(0, 0, 0, 0.9);
-  }
-  body.dark-mode #services-1082 .cs-item {
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-}
 
 /*-- -------------------------- -->
 <---          Gallery           -->
@@ -342,13 +311,6 @@
   #gallery-973 .cs-image {
     width: 25%;
     height: 25rem;
-  }
-}
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #gallery-973 .cs-title,
-  body.dark-mode #gallery-973 .cs-text {
-    color: var(--bodyTextColorWhite);
   }
 }
 
@@ -484,25 +446,6 @@
     order: 2;
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #sbsr-1162 {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  body.dark-mode #sbsr-1162 .cs-title,
-  body.dark-mode #sbsr-1162 .cs-text,
-  body.dark-mode #sbsr-1162 .cs-h3,
-  body.dark-mode #sbsr-1162 .cs-li {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #sbsr-1162 .cs-text,
-  body.dark-mode #sbsr-1162 .cs-li {
-    opacity: 0.8;
-  }
-  body.dark-mode #sbsr-1162 .cs-graphic {
-    opacity: 0.1;
-  }
-}
 
 /*-- -------------------------- -->
 <---          Testimonials      -->
@@ -617,22 +560,7 @@
     width: 48.5%;
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #reviews-727 .cs-title,
-  body.dark-mode #reviews-727 .cs-text,
-  body.dark-mode #reviews-727 .cs-h3,
-  body.dark-mode #reviews-727 .cs-item-text,
-  body.dark-mode #reviews-727 .cs-name {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #reviews-727 .cs-text {
-    opacity: 0.8;
-  }
-  body.dark-mode #reviews-727 .cs-item {
-    background-color: var(--medium);
-  }
-}
+
 /*-- -------------------------- -->
 <---            CTA             -->
 <--- -------------------------- -*/
