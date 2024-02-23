@@ -358,7 +358,7 @@
 @media only screen and (min-width: 0rem) {
   #sbsr-1162 {
     padding: var(--sectionPadding);
-    /* clips grpahics from causing overflow issues */
+    /* clips graphics to stop overflow issues */
     overflow: hidden;
     background-color: #f7f7f7;
   }
@@ -389,34 +389,6 @@
   }
   #sbsr-1162 .cs-text:last-of-type {
     margin-bottom: 2rem;
-  }
-  #sbsr-1162 .cs-ul {
-    max-width: 39.375rem;
-    margin: 0 0 2rem 0;
-    padding: 0;
-    /* clips the bullets to create the half circle */
-    overflow: hidden;
-  }
-  #sbsr-1162 .cs-li {
-    list-style: none;
-    margin: 0 0 0.5rem 0;
-    color: var(--bodyTextColor);
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 0.75rem;
-    position: relative;
-  }
-  #sbsr-1162 .cs-li:before {
-    /* bullet */
-    content: "";
-    width: 0.5rem;
-    height: 0.5rem;
-    margin-top: 0.5rem;
-    background: var(--secondary);
-    display: block;
-    /* prevents flexbox from squishing it */
-    flex: none;
   }
 
   #sbsr-1162 .cs-image-group {
