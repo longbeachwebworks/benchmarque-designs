@@ -8,7 +8,7 @@
     padding: var(--sectionPadding);
     /* clips graphics to stop overflow issues */
     overflow: hidden;
-    background-color: #fff;
+    background-color: #fefefe;
   }
   #sbsr-1162 .cs-container {
     width: 100%;
@@ -37,6 +37,37 @@
   }
   #sbsr-1162 .cs-text:last-of-type {
     margin-bottom: 2rem;
+  }
+
+  #sbsr-1162 .cs-ul {
+    max-width: 39.375rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    /* clips the bullets to create the half circle */
+    overflow: hidden;
+  }
+
+  #sbsr-1162 .cs-li {
+    font-size: 1.13rem;
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    color: var(--bodyTextColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #sbsr-1162 .cs-li:before {
+    /* bullet */
+    content: "";
+    width: 0.563rem;
+    height: 0.563rem;
+    margin-top: 0.563rem;
+    background: var(--primary);
+    display: block;
+    /* prevents flexbox from squishing it */
+    flex: none;
   }
 
   #sbsr-1162 .cs-image-group {
@@ -130,25 +161,6 @@
     order: 2;
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #sbsr-1162 {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  body.dark-mode #sbsr-1162 .cs-title,
-  body.dark-mode #sbsr-1162 .cs-text,
-  body.dark-mode #sbsr-1162 .cs-h3,
-  body.dark-mode #sbsr-1162 .cs-li {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #sbsr-1162 .cs-text,
-  body.dark-mode #sbsr-1162 .cs-li {
-    opacity: 0.8;
-  }
-  body.dark-mode #sbsr-1162 .cs-graphic {
-    opacity: 0.1;
-  }
-}
 
 /*-- -------------------------- -->
 <---     Exhibition Design      -->
@@ -189,6 +201,38 @@
   }
   #sbs-1161 .cs-text:last-of-type {
     margin-bottom: 2rem;
+  }
+
+  #sbs-1161 .cs-ul {
+    max-width: 39.375rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    /* clips the bullets to create the half circle */
+    overflow: hidden;
+  }
+
+  #sbs-1161 .cs-li {
+    font-size: 1.13rem;
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    color: var(--bodyTextColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+
+  #sbs-1161 .cs-li:before {
+    /* bullet */
+    content: "";
+    width: 0.563rem;
+    height: 0.563rem;
+    margin-top: 0.563rem;
+    background: var(--primary);
+    display: block;
+    /* prevents flexbox from squishing it */
+    flex: none;
   }
 
   #sbs-1161 .cs-image-group {
@@ -294,25 +338,6 @@
     flex: none;
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #sbs-1161 {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  body.dark-mode #sbs-1161 .cs-title,
-  body.dark-mode #sbs-1161 .cs-text,
-  body.dark-mode #sbs-1161 .cs-h3,
-  body.dark-mode #sbs-1161 .cs-li {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #sbs-1161 .cs-text,
-  body.dark-mode #sbs-1161 .cs-li {
-    opacity: 0.8;
-  }
-  body.dark-mode #sbs-1161 .cs-graphic {
-    opacity: 0.1;
-  }
-}
 
 /*-- -------------------------- -->
 <---        Shopfitting         -->
@@ -324,7 +349,7 @@
     padding: var(--sectionPadding);
     /* clips graphics to stop overflow issues */
     overflow: hidden;
-    background-color: #fff;
+    background-color: #fefefe;
   }
   #sbsr-1162-v2 .cs-container {
     width: 100%;
@@ -353,6 +378,37 @@
   }
   #sbsr-1162-v2 .cs-text:last-of-type {
     margin-bottom: 2rem;
+  }
+
+  #sbsr-1162-v2 .cs-ul {
+    max-width: 39.375rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    /* clips the bullets to create the half circle */
+    overflow: hidden;
+  }
+
+  #sbsr-1162-v2 .cs-li {
+    font-size: 1.13rem;
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    color: var(--bodyTextColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #sbsr-1162-v2 .cs-li:before {
+    /* bullet */
+    content: "";
+    width: 0.563rem;
+    height: 0.563rem;
+    margin-top: 0.563rem;
+    background: var(--primary);
+    display: block;
+    /* prevents flexbox from squishing it */
+    flex: none;
   }
 
   #sbsr-1162-v2 .cs-image-group {
@@ -446,25 +502,6 @@
     order: 2;
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #sbsr-1162-v2 {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  body.dark-mode #sbsr-1162-v2 .cs-title,
-  body.dark-mode #sbsr-1162-v2 .cs-text,
-  body.dark-mode #sbsr-1162-v2 .cs-h3,
-  body.dark-mode #sbsr-1162-v2 .cs-li {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #sbsr-1162-v2 .cs-text,
-  body.dark-mode #sbsr-1162-v2 .cs-li {
-    opacity: 0.8;
-  }
-  body.dark-mode #sbsr-1162-v2 .cs-graphic {
-    opacity: 0.1;
-  }
-}
 
 /*-- -------------------------- -->
 <---        CNC Machining       -->
@@ -505,6 +542,37 @@
   }
   #sbs-1161-v2 .cs-text:last-of-type {
     margin-bottom: 2rem;
+  }
+
+  #sbs-1161-v2 .cs-ul {
+    max-width: 39.375rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    /* clips the bullets to create the half circle */
+    overflow: hidden;
+  }
+
+  #sbs-1161-v2 .cs-li {
+    font-size: 1.13rem;
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    color: var(--bodyTextColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #sbs-1161-v2 .cs-li:before {
+    /* bullet */
+    content: "";
+    width: 0.563rem;
+    height: 0.563rem;
+    margin-top: 0.563rem;
+    background: var(--primary);
+    display: block;
+    /* prevents flexbox from squishing it */
+    flex: none;
   }
 
   #sbs-1161-v2 .cs-image-group {
@@ -610,25 +678,6 @@
     flex: none;
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #sbs-1161-v2 {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  body.dark-mode #sbs-1161-v2 .cs-title,
-  body.dark-mode #sbs-1161-v2 .cs-text,
-  body.dark-mode #sbs-1161-v2 .cs-h3,
-  body.dark-mode #sbs-1161-v2 .cs-li {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #sbs-1161-v2 .cs-text,
-  body.dark-mode #sbs-1161-v2 .cs-li {
-    opacity: 0.8;
-  }
-  body.dark-mode #sbs-1161-v2 .cs-graphic {
-    opacity: 0.1;
-  }
-}
 
 /*-- -------------------------- -->
 <---            CTA             -->
@@ -710,7 +759,7 @@
 <--- -------------------------- -*/
 
 .cs-link {
-  font-size: 1rem;
+  font-size: 1.13rem;
   line-height: 1.2em;
   text-align: inherit;
   text-decoration: none;
