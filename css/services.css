@@ -137,7 +137,7 @@
     /* 12px - 16px */
     font-size: clamp(0.75rem, 1.9vw, 1rem);
     text-align: center;
-    line-height: 1.2em;
+    line-height: 1.4em;
     font-weight: 700;
     width: 100%;
     max-width: 12ch;
@@ -149,7 +149,7 @@
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #sbsr-1162 .cs-container {
-    max-width: 90rem;
+    max-width: 80rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -316,7 +316,7 @@
     /* 12px - 16px */
     font-size: clamp(0.75rem, 1.9vw, 1rem);
     text-align: center;
-    line-height: 1.2em;
+    line-height: 1.4em;
     font-weight: 700;
     width: 100%;
     max-width: 12ch;
@@ -328,7 +328,7 @@
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #sbs-1161 .cs-container {
-    max-width: 90rem;
+    max-width: 80rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -478,7 +478,7 @@
     /* 12px - 16px */
     font-size: clamp(0.75rem, 1.9vw, 1rem);
     text-align: center;
-    line-height: 1.2em;
+    line-height: 1.4em;
     font-weight: 700;
     width: 100%;
     max-width: 12ch;
@@ -490,7 +490,7 @@
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #sbsr-1162-v2 .cs-container {
-    max-width: 90rem;
+    max-width: 80rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -656,7 +656,7 @@
     /* 12px - 16px */
     font-size: clamp(0.75rem, 1.9vw, 1rem);
     text-align: center;
-    line-height: 1.2em;
+    line-height: 1.4em;
     font-weight: 700;
     width: 100%;
     max-width: 12ch;
@@ -668,7 +668,7 @@
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #sbs-1161-v2 .cs-container {
-    max-width: 90rem;
+    max-width: 80rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;

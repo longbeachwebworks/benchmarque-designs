@@ -223,7 +223,7 @@
 /* Large Desktop - 1300px */
 @media only screen and (min-width: 81.25rem) {
   #services-1082 .cs-container {
-    max-width: 90rem;
+    max-width: 80rem;
   }
   #services-1082 .cs-item {
     grid-column: span 3;
@@ -423,7 +423,7 @@
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #sbsr-1162 .cs-container {
-    max-width: 90rem;
+    max-width: 80rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
