@@ -738,8 +738,8 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #000;
-    opacity: 0.8;
+    background: #1a1a1a;
+    opacity: 0.9;
     top: 0;
     left: 0;
     z-index: 1;
@@ -779,4 +779,14 @@
 
 .cs-link:hover .cs-arrow {
   transform: translateX(0.25rem);
+}
+
+/*-- -------------------------- -->
+<---      Bullet Topper         -->
+<--- -------------------------- -*/
+
+.bullet-topper {
+  font-size: 1.13rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
 }

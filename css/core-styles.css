@@ -159,7 +159,7 @@
     position: absolute;
     height: 100%;
     width: 0%;
-    background: #000;
+    background: #1a1a1a;
     opacity: 1;
     top: 0;
     left: 0;
@@ -575,8 +575,8 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #000;
-    opacity: 0.75;
+    background: #1a1a1a;
+    opacity: 0.9;
     top: 0;
     left: 0;
     z-index: 1;
@@ -665,8 +665,9 @@
     margin-bottom: 0;
   }
   #cs-footer-269 .cs-header {
-    font-size: 1.13rem;
+    font-size: var(--topperFontSize);
     line-height: 1.5em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 0.875rem;

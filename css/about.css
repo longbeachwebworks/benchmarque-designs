@@ -456,8 +456,8 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #000;
-    opacity: 0.8;
+    background: #1a1a1a;
+    opacity: 0.9;
     top: 0;
     left: 0;
     z-index: 1;
