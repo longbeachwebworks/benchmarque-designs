@@ -76,6 +76,7 @@
     width: 42.375em;
     height: 36.75em;
     display: block;
+    order: 2;
     position: relative;
     z-index: 1;
   }
@@ -157,8 +158,6 @@
   #sbsr-1162 .cs-image-group {
     font-size: min(1.2vw, 1em);
     flex: none;
-    /* sends it to the right in the 2nd position */
-    order: 2;
   }
 }
 
@@ -241,6 +240,7 @@
     width: 42.375em;
     height: 36.75em;
     display: block;
+    order: 2;
     position: relative;
     z-index: 1;
   }
@@ -336,6 +336,10 @@
   #sbs-1161 .cs-image-group {
     font-size: min(1.2vw, 1em);
     flex: none;
+    order: 1;
+  }
+  #sbs-1161 .cs-content {
+    order: 2;
   }
 }
 
@@ -417,6 +421,7 @@
     width: 42.375em;
     height: 36.75em;
     display: block;
+    order: 2;
     position: relative;
     z-index: 1;
   }
@@ -499,7 +504,6 @@
     font-size: min(1.2vw, 1em);
     flex: none;
     /* sends it to the right in the 2nd position */
-    order: 2;
   }
 }
 
@@ -581,6 +585,7 @@
     width: 42.375em;
     height: 36.75em;
     display: block;
+    order: 2;
     position: relative;
     z-index: 1;
   }
@@ -676,6 +681,10 @@
   #sbs-1161-v2 .cs-image-group {
     font-size: min(1.2vw, 1em);
     flex: none;
+    order: 1;
+  }
+  #sbs-1161-v2 .cs-content {
+    order: 2;
   }
 }
 
