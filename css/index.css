@@ -51,6 +51,10 @@
     max-width: 67.5rem;
     margin: auto;
   }
+  #hero-82 .cs-topper {
+    color: var(--secondary);
+  }
+
   #hero-82 .cs-title {
     /* 39px - 61px */
     font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
