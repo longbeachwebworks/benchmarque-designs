@@ -560,8 +560,8 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #1a1a1a;
-    opacity: 0.9;
+    background: var(--black);
+    opacity: var(--bg-overlay-opacity);
     top: 0;
     left: 0;
     z-index: 1;
@@ -576,17 +576,7 @@
     object-fit: cover;
   }
 }
-/* Tablet - 768px */
-@media only screen and (min-width: 48rem) {
-  #banner-712 .cs-background:before {
-    opacity: 1;
-    background: linear-gradient(
-      90.01deg,
-      rgba(0, 0, 0, 0.9) 16.86%,
-      rgba(0, 0, 0, 0) 100%
-    );
-  }
-}
+
 /*-- -------------------------- -->
 <---          Footer            -->
 <--- -------------------------- -*/
