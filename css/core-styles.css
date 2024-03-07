@@ -5,13 +5,13 @@
 @media only screen and (min-width: 0rem) {
   :root {
     --primary: #25616a;
-    --primaryLight: #001f3f;
-    --primaryDarker: #1b454b;
+    --primaryDarker: #173b41;
     --secondary: #ffc857;
-    --secondaryLight: #ffba43;
     --headerColor: #050e0f;
     --bodyTextColor: #050e0f;
     --bodyTextColorWhite: #fefefe;
+    --black: #050e0f;
+    --borderGrey: #e0e0e0;
     /* 13px - 16px */
     --topperFontSize: 1.13rem;
     /* 31px - 49px */
@@ -19,6 +19,8 @@
     --bodyFontSize: 1.13rem;
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    /*BG overlay opacity */
+    --bg-overlay-opacity: 0.8;
   }
   /* roboto-regular - latin */
   @font-face {
@@ -193,7 +195,7 @@
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
     background-color: #fefefe;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid var(--borderGrey);
     position: fixed;
     z-index: 10000;
   }
