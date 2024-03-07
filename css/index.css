@@ -8,7 +8,7 @@
     /* Centers button */
     text-align: center;
     /* 144px - 300px - leaving extra space for the navigation */
-    padding: clamp(9rem, 25.95vw, 18.75rem) 1rem 0;
+    padding: clamp(10rem, 25.95vw, 18.75rem) 1rem 0;
     /* 130px - 200px */
     padding-bottom: clamp(8.125rem, 12.5vw, 25em);
     position: relative;
@@ -50,9 +50,6 @@
     width: 100%;
     max-width: 67.5rem;
     margin: auto;
-  }
-  #hero-82 .cs-topper {
-    color: var(--secondary);
   }
 
   #hero-82 .cs-title {
@@ -104,7 +101,7 @@
 @media only screen and (min-width: 0rem) {
   #services-1082 {
     padding: var(--sectionPadding);
-    background-color: #fefefe;
+    background-color: var(--white);
   }
   #services-1082 .cs-container {
     width: 100%;
@@ -153,6 +150,9 @@
     z-index: 1;
   }
 
+  #services-1082 .cs-item:hover .cs-h3 {
+    background-color: var(--primary);
+  }
   #services-1082 .cs-picture {
     width: 100%;
     /* 180px - 240px */
@@ -183,7 +183,7 @@
     margin: 0;
     /* 12px - 16px top & Bottom */
     /* 16px - 24px left & right */
-    padding: 1rem;
+    padding: clamp(0.75rem, 1.6vw, 1rem) clamp(1rem, 2.5vw, 1.5rem);
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     background-color: var(--primary);
@@ -196,32 +196,31 @@
     transition: background-color 0.3s;
   }
   #services-1082 .cs-item-text {
-    font-size: 1.13rem;
-    line-height: 1.6em;
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
     text-align: inherit;
     width: 100%;
     margin: 0 0 1.25rem;
-    padding: 1rem;
+    /* 16px - 24px */
+    padding: clamp(1rem, 2.5vw, 1.25rem);
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     padding-bottom: 0;
     color: var(--bodyTextColor);
   }
   #services-1082 .cs-link {
-    font-size: 1.13rem;
+    font-size: 1rem;
     line-height: 1.2em;
     text-align: inherit;
     text-decoration: none;
     font-weight: 700;
-    padding: 0 1rem;
-    margin-top: auto;
-    margin-bottom: 1.5rem;
+    /* 16px - 24px */
+    margin: 0 0 clamp(1rem, 2.5vw, 1.5rem) clamp(1rem, 2.5vw, 1.5rem);
     color: var(--primary);
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
-
   #services-1082 .cs-link:hover .cs-arrow {
     transform: translateX(0.25rem);
   }
@@ -241,7 +240,7 @@
 /* Large Desktop - 1300px */
 @media only screen and (min-width: 81.25rem) {
   #services-1082 .cs-container {
-    max-width: 80rem;
+    max-width: 90rem;
   }
   #services-1082 .cs-item {
     grid-column: span 3;
