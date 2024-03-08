@@ -85,7 +85,7 @@
     line-height: 1.6em;
     text-align: center;
     width: 100%;
-    max-width: 37rem;
+    max-width: 40rem;
     margin: 0 auto;
     /* 40px - 48px */
     margin-bottom: clamp(2.5rem, 4vw, 3rem);

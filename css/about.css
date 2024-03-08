@@ -1,14 +1,14 @@
 /*-- -------------------------- -->
-<---           About Us         -->
+<---          About Us          -->
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #sbsr-1162 {
     padding: var(--sectionPadding);
-    /* clips graphics to stop overflow issues */
+    /* clips grpahics from causing overflow issues */
     overflow: hidden;
-    background-color: #fefefe;
+    background-color: var(--white);
   }
   #sbsr-1162 .cs-container {
     width: 100%;
@@ -38,6 +38,34 @@
   #sbsr-1162 .cs-text:last-of-type {
     margin-bottom: 2rem;
   }
+  #sbsr-1162 .cs-ul {
+    max-width: 39.375rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    /* clips the bullets to create the half circle */
+    overflow: hidden;
+  }
+  #sbsr-1162 .cs-li {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    color: var(--bodyTextColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #sbsr-1162 .cs-li:before {
+    /* bullet */
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    background: var(--primary);
+    display: block;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
 
   #sbsr-1162 .cs-image-group {
     /* scales the whole group based on the view width size and stop when that vales equals .8em, resets at desktop */
@@ -45,9 +73,9 @@
     width: 42.375em;
     height: 36.75em;
     display: block;
-    order: 2;
     position: relative;
     z-index: 1;
+    order: 2;
   }
   #sbsr-1162 .cs-picture {
     position: absolute;
@@ -74,7 +102,21 @@
     left: 0;
     z-index: 10;
   }
-
+  #sbsr-1162 .cs-graphic {
+    height: auto;
+    position: absolute;
+  }
+  #sbsr-1162 .cs-graphic1 {
+    width: 72.125em;
+    top: 1.25em;
+    left: -3.75em;
+    transform: rotate(-165deg);
+  }
+  #sbsr-1162 .cs-graphic2 {
+    width: 67.8125em;
+    top: 11.5625em;
+    left: -1.5625em;
+  }
   #sbsr-1162 .cs-box {
     width: 12.3125em;
     height: 11.125em;
@@ -138,7 +180,7 @@
 @media only screen and (min-width: 0rem) {
   #reviews-727 {
     padding: var(--sectionPadding);
-    background-color: #f7f7f7;
+    background-color: var(--grey);
   }
   #reviews-727 .cs-container {
     width: 100%;
@@ -182,7 +224,7 @@
     padding: clamp(2rem, 7vw, 3rem) clamp(1rem, 4vw, 2rem);
     /* makes padding not affect height and width */
     box-sizing: border-box;
-    background-color: #fefefe;
+    background-color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -204,15 +246,15 @@
   }
   #reviews-727 .cs-item-text {
     /* 14px - 16px */
-    font-size: 1.13rem;
+    font-size: var(--bodyFontSize);
     line-height: 1.6em;
     margin: 0 0 3rem 0;
     color: var(--bodyTextColor);
   }
   #reviews-727 .cs-name {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.2em;
-    font-weight: 500;
+    font-weight: 700;
     margin: auto 0 0 0;
     color: var(--headerColor);
     display: flex;
@@ -253,7 +295,7 @@
 @media only screen and (min-width: 0rem) {
   #services-1082 {
     padding: var(--sectionPadding);
-    background-color: #fefefe;
+    background-color: var(--white);
   }
   #services-1082 .cs-container {
     width: 100%;
@@ -293,7 +335,7 @@
     text-align: left;
     list-style: none;
     width: 100%;
-    background-color: #f7f7f7;
+    background-color: var(--grey);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -302,6 +344,9 @@
     z-index: 1;
   }
 
+  #services-1082 .cs-item:hover .cs-h3 {
+    background-color: var(--primary);
+  }
   #services-1082 .cs-picture {
     width: 100%;
     /* 180px - 240px */
@@ -332,7 +377,7 @@
     margin: 0;
     /* 12px - 16px top & Bottom */
     /* 16px - 24px left & right */
-    padding: 1rem;
+    padding: clamp(0.75rem, 1.6vw, 1rem) clamp(1rem, 2.5vw, 1.5rem);
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     background-color: var(--primary);
@@ -345,32 +390,31 @@
     transition: background-color 0.3s;
   }
   #services-1082 .cs-item-text {
-    font-size: 1.13rem;
-    line-height: 1.6em;
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
     text-align: inherit;
     width: 100%;
     margin: 0 0 1.25rem;
-    padding: 1rem;
+    /* 16px - 24px */
+    padding: clamp(1rem, 2.5vw, 1.25rem);
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     padding-bottom: 0;
     color: var(--bodyTextColor);
   }
   #services-1082 .cs-link {
-    font-size: 1.13rem;
+    font-size: 1rem;
     line-height: 1.2em;
     text-align: inherit;
     text-decoration: none;
     font-weight: 700;
-    padding: 0 1rem;
-    margin-top: auto;
-    margin-bottom: 1.5rem;
+    /* 16px - 24px */
+    margin: 0 0 clamp(1rem, 2.5vw, 1.5rem) clamp(1rem, 2.5vw, 1.5rem);
     color: var(--primary);
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
-
   #services-1082 .cs-link:hover .cs-arrow {
     transform: translateX(0.25rem);
   }
@@ -390,7 +434,7 @@
 /* Large Desktop - 1300px */
 @media only screen and (min-width: 81.25rem) {
   #services-1082 .cs-container {
-    max-width: 80rem;
+    max-width: 90rem;
   }
   #services-1082 .cs-item {
     grid-column: span 3;

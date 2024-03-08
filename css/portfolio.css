@@ -43,7 +43,7 @@
     flex-wrap: wrap;
   }
   #gallery-973 .cs-image {
-    width: 50%;
+    width: 100%;
     aspect-ratio: 1;
     /* clips the image corners */
     overflow: hidden;
