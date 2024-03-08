@@ -6,10 +6,10 @@
   :root {
     --primary: #25616a;
     --secondary: #ffc857;
-    --headerColor: #050e0f;
-    --bodyTextColor: #050e0f;
+    --headerColor: #171511;
+    --bodyTextColor: #171511;
     --bodyTextColorWhite: #fefefe;
-    --black: #050e0f;
+    --black: #171511;
     --white: #fefefe;
     --grey: #f7f7f7;
     --grey2: #484848;
@@ -115,7 +115,7 @@
     letter-spacing: 0.1em;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
     display: block;
   }
 
@@ -236,7 +236,9 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
+    transition: transform 250ms ease-in-out;
   }
+
   #cs-navigation .cs-logo img {
     width: 100%;
     height: 100%;
@@ -773,6 +775,15 @@
   }
   #cs-footer-842 .cs-ul-1 {
     margin-right: 6rem;
+  }
+  /* Footer links hover effect */
+  #cs-footer-842 ul a {
+    transform: scale(1);
+    transition: transform 250ms ease-in-out;
+  }
+
+  #cs-footer-842 ul a:hover {
+    transform: scale(0.9);
   }
 }
 
