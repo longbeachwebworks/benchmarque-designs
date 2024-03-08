@@ -1,14 +1,14 @@
 /*-- -------------------------- -->
-<---      Creative Joinery      -->
+<---          Joinery           -->
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #sbsr-1162 {
     padding: var(--sectionPadding);
-    /* clips graphics to stop overflow issues */
+    /* clips grpahics from causing overflow issues */
     overflow: hidden;
-    background-color: #fefefe;
+    background-color: var(--white);
   }
   #sbsr-1162 .cs-container {
     width: 100%;
@@ -38,7 +38,6 @@
   #sbsr-1162 .cs-text:last-of-type {
     margin-bottom: 2rem;
   }
-
   #sbsr-1162 .cs-ul {
     max-width: 39.375rem;
     margin: 0 0 2rem 0;
@@ -46,9 +45,7 @@
     /* clips the bullets to create the half circle */
     overflow: hidden;
   }
-
   #sbsr-1162 .cs-li {
-    font-size: 1.13rem;
     list-style: none;
     margin: 0 0 0.5rem 0;
     color: var(--bodyTextColor);
@@ -61,9 +58,9 @@
   #sbsr-1162 .cs-li:before {
     /* bullet */
     content: "";
-    width: 0.563rem;
-    height: 0.563rem;
-    margin-top: 0.563rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
     background: var(--primary);
     display: block;
     /* prevents flexbox from squishing it */
@@ -75,8 +72,8 @@
     font-size: min(2.15vw, 0.8em);
     width: 42.375em;
     height: 36.75em;
-    display: block;
     order: 2;
+    display: block;
     position: relative;
     z-index: 1;
   }
@@ -105,7 +102,21 @@
     left: 0;
     z-index: 10;
   }
-
+  #sbsr-1162 .cs-graphic {
+    height: auto;
+    position: absolute;
+  }
+  #sbsr-1162 .cs-graphic1 {
+    width: 72.125em;
+    top: 1.25em;
+    left: -3.75em;
+    transform: rotate(-165deg);
+  }
+  #sbsr-1162 .cs-graphic2 {
+    width: 67.8125em;
+    top: 11.5625em;
+    left: -1.5625em;
+  }
   #sbsr-1162 .cs-box {
     width: 12.3125em;
     height: 11.125em;
@@ -138,7 +149,7 @@
     /* 12px - 16px */
     font-size: clamp(0.75rem, 1.9vw, 1rem);
     text-align: center;
-    line-height: 1.4em;
+    line-height: 1.2em;
     font-weight: 700;
     width: 100%;
     max-width: 12ch;
@@ -158,6 +169,8 @@
   #sbsr-1162 .cs-image-group {
     font-size: min(1.2vw, 1em);
     flex: none;
+    /* sends it to the right in the 2nd position */
+    order: 2;
   }
 }
 

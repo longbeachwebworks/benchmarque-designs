@@ -61,7 +61,7 @@
     max-width: 51.8125rem;
     /* 16px - 24px */
     margin: 0 auto clamp(1rem, 4vw, 1.5rem);
-    color: #fefefe;
+    color: var(--white);
     position: relative;
   }
   #hero-82 .cs-title:after {
@@ -89,7 +89,7 @@
     margin: 0 auto;
     /* 40px - 48px */
     margin-bottom: clamp(2.5rem, 4vw, 3rem);
-    color: #fefefe;
+    color: var(--white);
   }
 }
 
@@ -141,7 +141,7 @@
     text-align: left;
     list-style: none;
     width: 100%;
-    background-color: #f7f7f7;
+    background-color: var(--grey);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -254,8 +254,8 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #gallery-973 {
+    background-color: var(--grey);
     padding: var(--sectionPadding);
-    background-color: #f7f7f7;
   }
   #gallery-973 .cs-container {
     width: 100%;
@@ -268,7 +268,6 @@
     /* 48px - 64px */
     gap: clamp(3rem, 6vw, 4rem);
   }
-
   #gallery-973 .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: center;
@@ -321,16 +320,16 @@
 }
 
 /*-- -------------------------- -->
-<---           About Us         -->
+<---          About Us          -->
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #sbsr-1162 {
     padding: var(--sectionPadding);
-    /* clips graphics to stop overflow issues */
+    /* clips grpahics from causing overflow issues */
     overflow: hidden;
-    background-color: #fefefe;
+    background-color: var(--white);
   }
   #sbsr-1162 .cs-container {
     width: 100%;
@@ -359,6 +358,34 @@
   }
   #sbsr-1162 .cs-text:last-of-type {
     margin-bottom: 2rem;
+  }
+  #sbsr-1162 .cs-ul {
+    max-width: 39.375rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    /* clips the bullets to create the half circle */
+    overflow: hidden;
+  }
+  #sbsr-1162 .cs-li {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    color: var(--bodyTextColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #sbsr-1162 .cs-li:before {
+    /* bullet */
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    background: var(--primary);
+    display: block;
+    /* prevents flexbox from squishing it */
+    flex: none;
   }
 
   #sbsr-1162 .cs-image-group {
@@ -395,7 +422,21 @@
     left: 0;
     z-index: 10;
   }
-
+  #sbsr-1162 .cs-graphic {
+    height: auto;
+    position: absolute;
+  }
+  #sbsr-1162 .cs-graphic1 {
+    width: 72.125em;
+    top: 1.25em;
+    left: -3.75em;
+    transform: rotate(-165deg);
+  }
+  #sbsr-1162 .cs-graphic2 {
+    width: 67.8125em;
+    top: 11.5625em;
+    left: -1.5625em;
+  }
   #sbsr-1162 .cs-box {
     width: 12.3125em;
     height: 11.125em;
@@ -460,7 +501,7 @@
 @media only screen and (min-width: 0rem) {
   #reviews-727 {
     padding: var(--sectionPadding);
-    background-color: #f7f7f7;
+    background-color: var(--grey);
   }
   #reviews-727 .cs-container {
     width: 100%;
@@ -504,7 +545,7 @@
     padding: clamp(2rem, 7vw, 3rem) clamp(1rem, 4vw, 2rem);
     /* makes padding not affect height and width */
     box-sizing: border-box;
-    background-color: #fefefe;
+    background-color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
