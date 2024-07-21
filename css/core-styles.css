@@ -56,6 +56,7 @@
     padding: 0;
     font-size: 100%;
     font-family: "Poppins", Arial, sans-serif;
+    text-wrap: balance;
     color: var(--bodyTextColor);
     overflow-x: hidden;
   }
@@ -134,7 +135,7 @@
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     margin: 0;
     color: var(--white);
