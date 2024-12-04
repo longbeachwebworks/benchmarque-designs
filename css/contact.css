@@ -51,10 +51,6 @@
     gap: 0.25rem;
   }
 
-  #contact-1525 .cs-label:nth-child(4) {
-    color: var(--headerColor);
-  }
-
   #contact-1525 .cs-input,
   #contact-1525 .cs-select {
     font-size: 1.13rem;
