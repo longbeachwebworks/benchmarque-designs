@@ -42,7 +42,7 @@
   #contact-1525 .cs-label {
     font-size: 1rem;
     width: 100%;
-    color: #fefefe;
+    color: var(--headerColor);
     display: flex;
     flex-direction: column;
     justify-content: center;
